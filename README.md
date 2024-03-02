@@ -3,7 +3,7 @@
 
 ```bash
 Live Url: https://tasks-management-apps.netlify.app/
-npm
+```
 
 ## Installation
 
