@@ -1,8 +1,9 @@
 
 # Task Management React App
 
-
-
+```bash
+Live Url: https://tasks-management-apps.netlify.app/
+npm
 
 ## Installation
 
