@@ -26,7 +26,6 @@ const HeaderBar = () => {
         <nav className="bg-white border-gray-200 px-2 lg:px-6 py-2.5 dark:bg-gray-800">
             <div className="flex flex-wrap bg-gray-100 rounded-xl justify-between p-2 shadow-sm items-center mx-auto max-w-screen-xl">
                 <a href="/" className="flex items-center">
-                    <img src="../../public/task-icon.png" className="mr-3 h-8 sm:h-9" alt="Manage Task" />
                     <span className="self-center text-xl font-semibold text-sky-600 whitespace-nowrap dark:text-white">Manage Tasks</span>
                 </a>
                 <div className="flex items-center lg:order-2">

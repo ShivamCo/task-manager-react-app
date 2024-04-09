@@ -26,6 +26,15 @@ try {
     console.log(error)
 }
 
+const RandomNumber =  () => {
+    const randomNumber =  Math.floor(Math.random() * 10);
+    
+    return randomNumber
+    
+};
+
+
+setInterval(RandomNumber, 9*60*1000);
 
 //Routes
 app.use("/api/", Authentication)

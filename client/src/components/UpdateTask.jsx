@@ -21,7 +21,7 @@ const UpdateTask = (props) => {
 
     const UpdateTask = async () => {
 
-        const response = await axios.post("http://localhost:5000/api/update-task", formData)
+        const response = await axios.post("https://task-manager-react-app-5nnd.onrender.com/api/update-task", formData)
 
     }
 

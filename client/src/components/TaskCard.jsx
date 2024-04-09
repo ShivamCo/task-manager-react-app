@@ -13,7 +13,7 @@ const TaskCard = (props) => {
 
         try {
 
-            const response = await axios.post("http://localhost:5000/api/remove-task", { "userID": localStorage.getItem("userID"), "taskID": event.target.value })
+            const response = await axios.post("https://task-manager-react-app-5nnd.onrender.com/api/remove-task", { "userID": localStorage.getItem("userID"), "taskID": event.target.value })
             // setTaskList(response.data)
         } catch (error) {
             console.log(error)
@@ -27,7 +27,7 @@ const TaskCard = (props) => {
         console.log(event.target.value)
         try {
 
-            const response = await axios.post("http://localhost:5000/api/completed-task", { "userID": localStorage.getItem("userID"), "taskID": TastID, "completed": !props.completed })
+            const response = await axios.post("https://task-manager-react-app-5nnd.onrender.com/api/completed-task", { "userID": localStorage.getItem("userID"), "taskID": TastID, "completed": !props.completed })
             // setTaskList(response.data)
         } catch (error) {
             console.log(error)

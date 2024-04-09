@@ -19,7 +19,7 @@ const RegisterPage = () => {
     const handleSubmitLogin = async (event) => {
             event.preventDefault()
             try {
-                const response = await axios.post("http://localhost:5000/api/register", formData)
+                const response = await axios.post("https://task-manager-react-app-5nnd.onrender.com/api/register", formData)
                 
                 navigate("/login")
                 

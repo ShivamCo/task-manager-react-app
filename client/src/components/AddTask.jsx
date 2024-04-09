@@ -22,7 +22,7 @@ const AddTask = (props) => {
 
     const AddNewTask = async () => {
         try {
-            const response = await axios.post("http://localhost:5000/api/add-task", formData)
+            const response = await axios.post("https://task-manager-react-app-5nnd.onrender.com/api/add-task", formData)
             console.log(response.message)
         } catch(error){
             console.log(error)
@@ -34,7 +34,7 @@ const AddTask = (props) => {
     const handleUpdateTask = async () => {
 
         try {
-            const response = await axios.post("http://localhost:5000/api/update-task", formData)
+            const response = await axios.post("https://task-manager-react-app-5nnd.onrender.com/api/update-task", formData)
             console.log(response.message)
         } catch(error){
             console.log(error)
